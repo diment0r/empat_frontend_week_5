@@ -1,0 +1,41 @@
+.companies {
+  background-color: var(--color-light);
+  padding: 50px 0;
+  @media (max-width: 1024px) {
+    padding: 40px 0;
+  }
+  @media (max-width: 864px) {
+    padding: 20px 0;
+  }
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    @media (max-width: 1024px) {
+      row-gap: 20px;
+    }
+    @media (max-width: 864px) {
+        row-gap: 30px;
+    }
+  }
+  &__body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    &-icon {
+      width: 100px;
+      height: 100px;
+      @media (max-width: 1024px) {
+        width: 65px;
+        height: 65px
+      }
+      @media (max-width: 864px) {
+        width: 35px;
+        height: 35px;
+        &:nth-child(5) {
+            display: none;
+        }        
+      }
+    }
+  }
+}

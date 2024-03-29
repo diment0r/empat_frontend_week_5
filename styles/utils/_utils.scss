@@ -1,0 +1,30 @@
+.container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+
+  // * SMALL DESKTOP
+  @media (max-width: 1200px) {
+    --container-width: 1000px;
+  }
+
+  // * TABLET
+  @media (max-width: 1024px) {
+    --container-width: 824px;
+  }
+
+  // * PHONE
+  @media (max-width: 864px) {
+    margin: 0 20px;
+  }
+}
+
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-light);
+  background-color: var(--color-red);
+}
