@@ -1,8 +1,10 @@
 @import "utils/fonts", "utils/reset", "utils/variables", "utils/utils";
 
-@import "blocks/section-header", "blocks/banner", "blocks/header",
-  "blocks/why-section", "blocks/trust-section", "blocks/companies-section",
-  "blocks/stay-section", "blocks/footer", "blocks/bottom";
+@import "blocks/header", "blocks/footer", "blocks/bottom";
+
+@import "main_page/section-header", "main_page/banner", "main_page/why-section",
+  "main_page/trust-section", "main_page/companies-section",
+  "main_page/stay-section";
 
 body {
   font-family: var(--font-family-base);
