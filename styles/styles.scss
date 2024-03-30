@@ -1,10 +1,12 @@
 @import "utils/fonts", "utils/reset", "utils/variables", "utils/utils";
 
-@import "blocks/header", "blocks/footer", "blocks/bottom";
+@import "blocks/page-header", "blocks/header", "blocks/footer", "blocks/bottom";
 
 @import "main_page/section-header", "main_page/banner", "main_page/why-section",
   "main_page/trust-section", "main_page/companies-section",
   "main_page/stay-section";
+
+@import "programs_page/programs-section", "programs_page/consult-section";
 
 body {
   font-family: var(--font-family-base);

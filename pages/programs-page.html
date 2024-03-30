@@ -5,12 +5,207 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dimentor</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="../styles/styles.css">
 
-    <script defer src="js/burger-menu.js"></script>
+    <script defer src="../js/burger-menu.js"></script>
 </head>
 
 <body>
+    <header class="header">
+        <div class="header__inner container">
+            <a href="/"><img class="header__logo" src="../images/icons/header-logo.svg" alt="dimentor"
+                    loading="lazy"></a>
+            <nav class="header__menu active">
+                <ul class="header__menu-list">
+                    <li class="header__menu-item">
+                        <a href="/pages/programs-page.html" class="header__menu-link">programs</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="#!" class="header__menu-link">contacts</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="header__button button" type="button">Get Started</button>
+            <a class="header__burger" href="#!" id="burger">
+                <span class="header__burger-stick"></span>
+                <span class="header__burger-stick"></span>
+                <span class="header__burger-stick"></span>
+            </a>
+        </div>
+    </header>
+
+    <section class="programs">
+        <div class="programs__inner container">
+            <div class="programs__header page-header">
+                <h1 class="programs__header-caption page-header-caption">PROGRAMS</h1>
+                <h1 class="programs__header-title page-header-title">Find the program that's <br>right for you</h1>
+                <p class="programs__header-subtitle page-header-subtitle">Let's find the best way to support your
+                    success</p>
+            </div>
+            <div class="programs__body">
+                <div class="programs__card">
+                    <h1 class="programs__card-title">Full-Stack Web Developer</h1>
+                    <div class="programs__card-subtitle">
+                        <p class="programs__card-time">7+ months</p>
+                        <div class="programs__card-stick"></div>
+                        <p class="programs__card-level">For beginners</p>
+                    </div>
+                    <p class="programs__card-desc">Fullstack developers have both front-end (client-side) and back-end
+                        (server-side) programming skills. They are able to develop a complete product from start to
+                        finish.</p>
+                    <div class="programs__card-buttons">
+                        <button class="programs__card-button-red button">Individual</button>
+                        <button class="programs__card-button-light button">Group</button>
+                    </div>
+                </div>
+                <div class="programs__card">
+                    <h1 class="programs__card-title">Front-End Web Developer</h1>
+                    <div class="programs__card-subtitle">
+                        <p class="programs__card-time">6+ months</p>
+                        <div class="programs__card-stick"></div>
+                        <p class="programs__card-level">For beginners</p>
+                    </div>
+                    <p class="programs__card-desc">A frontend developer is responsible for creating a convenient and
+                        aesthetic appearance of a web page on different devices, and also implements animations and
+                        other solutions.</p>
+                    <div class="programs__card-buttons">
+                        <button class="programs__card-button-red button">Individual</button>
+                        <button class="programs__card-button-light button">Group</button>
+                    </div>
+                </div>
+                <div class="programs__card">
+                    <h1 class="programs__card-title">Java Developer</h1>
+                    <div class="programs__card-subtitle">
+                        <p class="programs__card-time">4+ months</p>
+                        <div class="programs__card-stick"></div>
+                        <p class="programs__card-level">For beginners</p>
+                    </div>
+                    <p class="programs__card-desc">Java developers create powerful and reliable applications that are
+                        used in various fields - from banks to the agricultural sector.</p>
+                    <div class="programs__card-buttons">
+                        <button class="programs__card-button-red button">Individual</button>
+                        <button class="programs__card-button-light button">Group</button>
+                    </div>
+                </div>
+                <div class="programs__card">
+                    <h1 class="programs__card-title">C/C++ Developer</h1>
+                    <div class="programs__card-subtitle">
+                        <p class="programs__card-time">5+ months</p>
+                        <div class="programs__card-stick"></div>
+                        <p class="programs__card-level">For beginners</p>
+                    </div>
+                    <p class="programs__card-desc">C++ developers can work in a variety of fields, from machine learning
+                        to web development. They have the knowledge necessary to create, expand and publish</p>
+                    <div class="programs__card-buttons">
+                        <button class="programs__card-button-red button">Individual</button>
+                        <button class="programs__card-button-light button">Group</button>
+                    </div>
+                </div>
+                <div class="programs__card">
+                    <h1 class="programs__card-title">QA Engineer</h1>
+                    <div class="programs__card-subtitle">
+                        <p class="programs__card-time">3+ months</p>
+                        <div class="programs__card-stick"></div>
+                        <p class="programs__card-level">For beginners</p>
+                    </div>
+                    <p class="programs__card-desc">A QA engineer develops plans for testing applications and websites.
+                        The tester finds errors in the product's operation, and, more importantly, helps to avoid them
+                        in the future.</p>
+                    <div class="programs__card-buttons">
+                        <button class="programs__card-button-red button">Individual</button>
+                        <button class="programs__card-button-light button">Group</button>
+                    </div>
+                </div>
+                <div class="programs__card">
+                    <h1 class="programs__card-title">UI/UX Designer</h1>
+                    <div class="programs__card-subtitle">
+                        <p class="programs__card-time">3+ months</p>
+                        <div class="programs__card-stick"></div>
+                        <p class="programs__card-level">For beginners</p>
+                    </div>
+                    <p class="programs__card-desc">UI/UX designers specialize in application interfaces. They create
+                        user-friendly, aesthetically pleasing and understandable designs that meet these needs.</p>
+                    <div class="programs__card-buttons">
+                        <button class="programs__card-button-red button">Individual</button>
+                        <button class="programs__card-button-light button">Group</button>
+                    </div>
+                </div>
+                <div class="programs__card">
+                    <h1 class="programs__card-title">Recruiter</h1>
+                    <div class="programs__card-subtitle">
+                        <p class="programs__card-time">4 months</p>
+                        <div class="programs__card-stick"></div>
+                        <p class="programs__card-level">For beginners</p>
+                    </div>
+                    <p class="programs__card-desc">IT recruiters ensure the development of teams. These are experts in
+                        the field of selecting candidates for vacancies related to software development, databases and
+                        other areas.</p>
+                    <div class="programs__card-buttons">
+                        <button class="programs__card-button-red button">Individual</button>
+                        <button class="programs__card-button-light button">Group</button>
+                    </div>
+                </div>
+                <div class="programs__card">
+                    <h1 class="programs__card-title">DevOps Engineer</h1>
+                    <div class="programs__card-subtitle">
+                        <p class="programs__card-time">6+ months</p>
+                        <div class="programs__card-stick"></div>
+                        <p class="programs__card-level">For beginners</p>
+                    </div>
+                    <p class="programs__card-desc">Harness the DevOps expertise to streamline software creation and
+                        automate development for dependable, swift delivery across platforms.</p>
+                    <div class="programs__card-buttons">
+                        <button class="programs__card-button-red button">Individual</button>
+                        <button class="programs__card-button-light button">Group</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="consult">
+        <div class="consult__inner container">
+            <h1 class="consult__title">Need a consultation?</h1>
+            <p class="consult__subtitle">Write your email and we will contact you to confirm the date of the
+                consultation at which you can find out information about the training in more detail</p>
+            <form class="consult__form" action="#!">
+                <input class="consult__form-input" type="text" placeholder="Write your email...">
+                <button class="consult__form-button button" type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__inner container">
+            <img class="footer__logo" src="../images/icons/logo-footer.svg" alt="dimentor" loading="lazy">
+            <div class="footer__links">
+                <div class="footer__links-col">
+                    <h1 class="footer__links-title">Company</h1>
+                    <a href="#!" class="footer__link">Overview</a>
+                    <a href="#!" class="footer__link">Pricing</a>
+                </div>
+                <div class="footer__links-col">
+                    <h1 class="footer__links-title">Platform</h1>
+                    <a href="#!" class="footer__link">About us</a>
+                    <a href="#!" class="footer__link">Contact us</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="bottom">
+        <div class="bottom__inner container">
+            <h1 class="bottom__left">© 2024 Dimentor. All rights reserved. <span>Privacy Policy</span></h1>
+            <div class="bottom__right">
+                <a class="bottom__right-icon" href=""><img src="../images/icons/facebook-outlined-icon.svg" alt="facebook"
+                        loading="lazy" /></a>
+                <a class="bottom__right-icon" href=""><img src="../images/icons/linkedin-icon.svg" alt="linkedin"
+                        loading="lazy" /></a>
+                <a class="bottom__right-icon" href=""><img src="../images/icons/twitter-icon.svg" alt="twitter"
+                        loading="lazy" /></a>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
