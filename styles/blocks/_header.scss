@@ -3,7 +3,10 @@
   border-bottom: 1px solid var(--border-color-dark);
   @media (max-width: 864px) {
     &.active &__menu {
-      transform: translateY(100%);
+      display: block;
+      visibility: visible;
+      opacity: 1;
+      transition: opacity 0.5s, visibility 0.5s;
     }
     &.active &__burger-stick {
       &:nth-child(1) {
@@ -48,14 +51,15 @@
       width: 144px;
       position: absolute;
       display: block;
+      visibility: hidden;
+      opacity: 0;
       right: 0;
-      // top: 57px;
-      top: -115px;
-      z-index: -1;
+      top: 57px;
       background-color: var(--color-dark);
       color: var(--color-light);
       padding: 80px 20px 20px 20px;
-      transition: transform 0.5s;
+      transition: opacity 0.5s, visibility 0.5s;
+      border: 1px solid var(--color-light);
     }
     &-list {
       display: flex;
@@ -120,4 +124,8 @@
       }
     }
   }
+}
+
+.red {
+    color: var(--color-red);
 }

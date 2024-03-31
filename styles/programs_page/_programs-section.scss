@@ -1,6 +1,9 @@
 .programs {
   background-color: var(--color-light);
-  padding: 70px 0;
+  padding: 50px 0;
+  @media (max-width: 1024px) {
+    padding: 40px 0;
+  }
   @media (max-width: 864px) {
     padding: 20px 0;
   }

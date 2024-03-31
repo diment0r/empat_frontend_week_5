@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dimentor</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+
+    <script defer src="../js/burger-menu.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__inner container">
+            <a href="/empat_frontend_week_5/"><img class="header__logo" src="../images/icons/header-logo.svg"
+                    alt="dimentor" loading="lazy"></a>
+            <!-- <a href="/"><img class="header__logo" src="../images/icons/header-logo.svg" alt="dimentor"
+                    loading="lazy"></a> -->
+
+            <nav class="header__menu active">
+                <ul class="header__menu-list">
+                    <li class="header__menu-item">
+                        <!-- <a href="/pages/programs-page.html" class="header__menu-link">programs</a> -->
+                        <a href="/empat_frontend_week_5/pages/programs-page.html" class="header__menu-link">programs</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <!-- <a href="/pages/contacts-page.html" class="header__menu-link">contacts</a> -->
+                        <a href="/empat_frontend_week_5/pages/contacts-page.html" class="header__menu-link">programs</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="header__button button" type="button">Get Started</button>
+            <a class="header__burger" href="#!" id="burger">
+                <span class="header__burger-stick"></span>
+                <span class="header__burger-stick"></span>
+                <span class="header__burger-stick"></span>
+            </a>
+        </div>
+    </header>
+
+    <section class="form">
+        <div class="form__inner container">
+            <div class="form__header page-header">
+                <h1 class="form__header-caption page-header-caption">CONTACTS</h1>
+                <h1 class="form__header-title page-header-title">Contact us</h1>
+                <p class="form__header-subtitle page-header-subtitle">You can ask any question in form below. Subscribe
+                    on our social media</p>
+            </div>
+            <form action="#!" class="form__body">
+                <div class="form__item">
+                    <label for="email" class="form__item-label">Your email adress</label>
+                    <input id="email" class="form__item-input" type="text" placeholder="Write your email...">
+                </div>
+                <div class="form__item">
+                    <label for="subject" class="form__item-label">Subject</label>
+                    <input id="subject" class="form__item-input" type="text" placeholder="Subject...">
+                </div>
+                <div class="form__item">
+                    <label for="question" class="form__item-label">How we can help?</label>
+                    <input id="question" class="form__item-input" type="text" placeholder="Question...">
+                </div>
+                <button class="form__button button" type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__inner container">
+            <img class="footer__logo" src="../images/icons/logo-footer.svg" alt="dimentor" loading="lazy">
+            <div class="footer__links">
+                <div class="footer__links-col">
+                    <h1 class="footer__links-title">Company</h1>
+                    <a href="#!" class="footer__link">Overview</a>
+                    <a href="#!" class="footer__link">Pricing</a>
+                </div>
+                <div class="footer__links-col">
+                    <h1 class="footer__links-title">Platform</h1>
+                    <a href="#!" class="footer__link">About us</a>
+                    <a href="#!" class="footer__link">Contact us</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="bottom">
+        <div class="bottom__inner container">
+            <h1 class="bottom__left">© 2024 Dimentor. All rights reserved. <span>Privacy Policy</span></h1>
+            <div class="bottom__right">
+                <a class="bottom__right-icon" href=""><img src="../images/icons/facebook-outlined-icon.svg"
+                        alt="facebook" loading="lazy" /></a>
+                <a class="bottom__right-icon" href=""><img src="../images/icons/linkedin-icon.svg" alt="linkedin"
+                        loading="lazy" /></a>
+                <a class="bottom__right-icon" href=""><img src="../images/icons/twitter-icon.svg" alt="twitter"
+                        loading="lazy" /></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
